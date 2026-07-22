@@ -1,4 +1,4 @@
-# Bodibreze-AI-
+﻿# Bodibreze-AI
 
 Bodibreze 团队的 AI 辅助运营工具库：集中管理业务逻辑、公共文档、可复用 Skill、自动化脚本、提示词模板、数据分析方法论和工作日记。
 
@@ -12,7 +12,7 @@ Bodibreze-AI-/
 |  |- ai-agent-work-map/          # AI Agent 工作协助进阶资料
 |  |- brand/BODIBREZE/            # BODIBREZE SKU 与组合规则资料
 |  |- framework/                  # 数据分析、清洗、字段口径等通用框架
-|  |- public/                     # E:\AI项目汇总\公共docs 迁移内容
+|  |- public/                     # 本地公共 docs 迁移内容
 |  `- templates/                  # 日报、复盘、提示词、SOP 模板
 |- skills/                        # 可复用 Codex Skill
 |  |- adspower-browser/
@@ -96,19 +96,11 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 首次推送到 GitHub
-
-如果本机有 Git：
+## 推送到 GitHub
 
 ```powershell
 cd C:\Users\Administrator\Bodibreze-AI-
-git init
-git branch -M main
-git remote add origin https://github.com/meanj-su/Bodibreze-AI-.git
-git add .
-git commit -m "Initialize Bodibreze AI operations hub"
+git add README.md
+git commit -m "Resolve README merge conflict"
 git push -u origin main
 ```
-
-当前机器如果 `git` 不在 PATH，可以先用 GitHub 网页上传整个 `Bodibreze-AI-` 文件夹，或安装 Git for Windows 后再执行以上命令。
-
