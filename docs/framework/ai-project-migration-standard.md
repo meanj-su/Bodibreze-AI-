@@ -50,3 +50,20 @@ E:\AI项目汇总\
 2. 从 `Bodibreze-AI\templates\new-project\` 复制 `AGENTS.md` 和 `README.md`。
 3. 在项目 README 里记录数据源、输出目录和人工确认点。
 4. 如果项目形成稳定流程，再沉淀到 `skills\`、`workflows\` 或 `docs\framework\`。
+
+## 项目级 AGENTS.md 补齐
+
+已经位于 E 盘并被工具库收录的项目，不需要重复迁移；只需要补齐项目根目录 `AGENTS.md`，明确项目类型、入口文件、输出规则和人工确认边界。
+
+优先补齐对象：
+
+- `shopee-adspower-scraper`
+- `shopee-official-excel-export`
+- `adspower-browser`
+- `shopee-hover-data`
+
+后续补齐对象：
+
+- `全站数据分析`
+- `公共docs`
+- `日常工作`
