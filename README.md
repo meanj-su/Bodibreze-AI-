@@ -31,6 +31,8 @@ Bodibreze-AI-/
 
 ## 常用入口
 
+- `AGENTS.md`：所有 Bodibreze AI 项目的总读取规则和人工确认边界。
+- `templates/new-project/`：新项目最低接入模板，复制 `AGENTS.md` 和 `README.md` 即可开始。
 - `docs/ai-agent-work-map/README.md`：AI 初学者工作协助路线，从工具地图开始。
 - `docs/public/README.md`：公共 docs 入口，优先阅读这里再进入具体项目。
 - `docs/brand/BODIBREZE/`：SKU 对照、清仓组合、Bundle 编码匹配等资料。
@@ -38,7 +40,6 @@ Bodibreze-AI-/
 - `skills/adspower-browser/SKILL.md`：AdsPower 浏览器管理与登录态复用相关 Skill。
 - `skills/shopee-hover-data/SKILL.md`：Shopee 图表 hover/sourceData 提取 Skill。
 - `workflows/shopee-adspower-scraper/README.md`：Shopee Seller Center / AdsPower 数据采集与 Product Impact 报告工作流。
-
 ## Skill 使用方式
 
 大多数 Skill 目录遵循以下结构：
@@ -104,3 +105,6 @@ git add README.md
 git commit -m "Resolve README merge conflict"
 git push -u origin main
 ```
+
+
+
