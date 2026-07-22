@@ -67,3 +67,11 @@ E:\AI项目汇总\
 - `全站数据分析`
 - `公共docs`
 - `日常工作`
+
+## 公共docs 定位
+
+`E:\AI项目汇总\公共docs` 不再作为所有项目的最高级入口。它保留为本地公共资料中转站、历史兼容入口和敏感资源路径索引。
+
+- 正式跨项目规则：写入 `Bodibreze-AI\AGENTS.md`、`docs\framework` 或 `docs\public`。
+- 本地敏感路径、凭证路径、原始文件位置：保留在 `公共docs` 或 `Bodibreze-Data-Library`，不提交 GitHub。
+- 旧项目仍可读取 `公共docs`，但新任务优先读取 `Bodibreze-AI\AGENTS.md`。
