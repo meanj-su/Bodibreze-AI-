@@ -14,8 +14,8 @@
 
 1. 当前项目 `AGENTS.md`
 2. 当前项目 `README.md`
-3. 总工具库 `C:\Users\Administrator\Bodibreze-AI-\AGENTS.md`
-4. 总工具库 `C:\Users\Administrator\Bodibreze-AI-\README.md`
+3. 总工具库 `E:\AI项目汇总\Bodibreze-AI\AGENTS.md`
+4. 总工具库 `E:\AI项目汇总\Bodibreze-AI\README.md`
 5. 总工具库 `docs\public\README.md`
 6. 与任务相关的 `docs\`
 7. 与任务相关的 `skills\`
@@ -45,3 +45,4 @@ AI 开始执行前必须说明：
 - 使用账号登录、cookies、API Key 或 AdsPower 浏览器控制。
 - 运行会导出、发布、提交、批量修改后台数据的脚本。
 - 将临时流程沉淀为长期 Skill 或公共规范。
+

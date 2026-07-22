@@ -35,6 +35,7 @@ Bodibreze-AI-/
 - `templates/new-project/`：新项目最低接入模板，复制 `AGENTS.md` 和 `README.md` 即可开始。
 - `docs/ai-agent-work-map/README.md`：AI 初学者工作协助路线，从工具地图开始。
 - `docs/public/README.md`：公共 docs 入口，优先阅读这里再进入具体项目。
+- `docs/framework/ai-project-migration-standard.md`：AI 项目统一迁移、分类和验收规范。
 - `docs/brand/BODIBREZE/`：SKU 对照、清仓组合、Bundle 编码匹配等资料。
 - `skills/shopee-official-excel-export/SKILL.md`：Shopee 官方 Excel 导出 Skill。
 - `skills/adspower-browser/SKILL.md`：AdsPower 浏览器管理与登录态复用相关 Skill。
@@ -100,11 +101,13 @@ pip install -r requirements.txt
 ## 推送到 GitHub
 
 ```powershell
-cd C:\Users\Administrator\Bodibreze-AI-
+cd E:\AI项目汇总\Bodibreze-AI
 git add README.md
 git commit -m "Resolve README merge conflict"
 git push -u origin main
 ```
+
+
 
 
 

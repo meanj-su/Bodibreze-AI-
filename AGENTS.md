@@ -4,17 +4,18 @@
 
 ## 总工具库位置
 
-- 本地路径：`C:\Users\Administrator\Bodibreze-AI-`
+- 主路径：`E:\AI项目汇总\Bodibreze-AI`
+- 兼容路径：`C:\Users\Administrator\Bodibreze-AI-`
 - GitHub：`https://github.com/meanj-su/Bodibreze-AI`
 
-默认优先使用本地路径；只有本地缺失、疑似过期、用户要求同步或需要跨设备协作时，再参考 GitHub。
+默认优先使用 E 盘主路径；C 盘兼容路径仅用于旧任务和 Codex 入口。只有本地缺失、疑似过期、用户要求同步或需要跨设备协作时，再参考 GitHub。
 
 ## 默认读取顺序
 
 1. 当前项目 `AGENTS.md`
 2. 当前项目 `README.md`
-3. 总工具库 `C:\Users\Administrator\Bodibreze-AI-\AGENTS.md`
-4. 总工具库 `C:\Users\Administrator\Bodibreze-AI-\README.md`
+3. 总工具库主路径 `E:\AI项目汇总\Bodibreze-AI\AGENTS.md`
+4. 总工具库主路径 `E:\AI项目汇总\Bodibreze-AI\README.md`
 5. 总工具库 `docs\public\README.md`
 6. 与任务相关的 `docs\`
 7. 与任务相关的 `skills\`
@@ -37,6 +38,7 @@
 - AI 初学、任务拆解和提示词模板优先看 `docs\ai-agent-work-map\`。
 - BODIBREZE SKU、Bundle、组合资料优先看 `docs\brand\BODIBREZE\`。
 - 公共协作规则、拉数逻辑、Skill 创建方法优先看 `docs\public\`。
+- AI 项目迁移、分类和验收优先看 `docs\framework\ai-project-migration-standard.md`。
 
 ## 人工确认边界
 
