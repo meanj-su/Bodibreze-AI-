@@ -1,0 +1,6 @@
+# Add Python dependencies here only when a workflow needs them.
+# Example:
+# pandas
+# openpyxl
+# python-docx
+

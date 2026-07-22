@@ -1,0 +1,7 @@
+interface:
+  display_name: "Shopee Official Excel Export"
+  short_description: "Download Shopee official reports and sync supported sheets."
+  default_prompt: "Use $shopee-official-excel-export to export Shopee Product Performance, Voucher, Shopee Ads, or Affiliate reports for configured countries; preserve originals and sync only supported modules."
+
+policy:
+  allow_implicit_invocation: true

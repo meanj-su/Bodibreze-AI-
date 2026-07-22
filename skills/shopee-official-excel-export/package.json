@@ -1,0 +1,19 @@
+{
+  "name": "shopee-official-excel-export-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Shopee official Excel export skill.",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node scripts/shopee-export.mjs",
+    "check": "node --check scripts/shopee-export.mjs && node --check scripts/export-official-excel.mjs && node --check scripts/write-google-summary.mjs && node -e \"JSON.parse(require('fs').readFileSync('config/default.config.json','utf8')); console.log('config ok')\""
+  },
+  "dependencies": {
+    "playwright": "^1.61.1",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

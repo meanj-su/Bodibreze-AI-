@@ -1,0 +1,108 @@
+{
+  "adsBase": "http://local.adspower.net:50325",
+  "outDir": "E:/AI项目汇总/shopee-adspower-scraper/exports/ads-autopilot",
+  "historyDays": 7,
+  "networkWaitMs": 15000,
+  "timeoutMs": 30000,
+  "google": {
+    "enabled": true,
+    "spreadsheetId": "1bLwa2kh5K__Jo52SP5Ju7Bu80YQviM6MRB6Kzm8N1Y8",
+    "credentialPath": "E:\\AI项目汇总\\全站数据分析\\credentials\\advance-rush-406115-7f33ce3cdf8b.json",
+    "proxy": "http://127.0.0.1:7890",
+    "sheets": {
+      "hourly": "ShopeeAds_Hourly",
+      "daily": "ShopeeAds_Daily",
+      "recommendations": "ShopeeAds_Recommendations",
+      "runLog": "ShopeeAds_RunLog"
+    }
+  },
+  "thresholds": {
+    "scaleRoas": 24,
+    "maintainRoas": 18,
+    "pauseRoas": 8,
+    "cpcJumpPct": 30,
+    "minSpendForPause": {
+      "ID": 20000,
+      "MY": 20,
+      "TH": 100
+    }
+  },
+  "countries": [
+    {
+      "code": "ID",
+      "label": "Indonesia",
+      "profileId": "kyme0da",
+      "timezone": "Asia/Jakarta",
+      "currency": "IDR",
+      "host": "seller.shopee.co.id",
+      "targetPath": "/portal/marketing/pas/index"
+    },
+    {
+      "code": "MY",
+      "label": "Malaysia",
+      "profileId": "k14di2tc",
+      "timezone": "Asia/Kuala_Lumpur",
+      "currency": "MYR",
+      "host": "seller.shopee.com.my",
+      "targetPath": "/portal/marketing/pas/index"
+    },
+    {
+      "code": "TH",
+      "label": "Thailand",
+      "profileId": "k16ggegy",
+      "timezone": "Asia/Bangkok",
+      "currency": "THB",
+      "host": "seller.shopee.co.th",
+      "targetPath": "/portal/marketing/pas/index"
+    }
+  ],
+  "report": {
+    "outputDir": "E:/AI项目汇总/shopee-adspower-scraper/exports/ads-autopilot/reports",
+    "logsDir": "E:/AI项目汇总/shopee-adspower-scraper/exports/ads-autopilot/logs",
+    "combinedAdsDir": "D:/Shopee Export/Combined/Shopee Ads",
+    "officialExportProject": "E:/AI项目汇总/shopee-official-excel-export",
+    "staleMinutes": 90,
+    "autoExport": true,
+    "beijingReportTimes": [
+      "09:00",
+      "11:00",
+      "13:00",
+      "15:00",
+      "17:00",
+      "19:00"
+    ],
+    "productThresholds": {
+      "scaleRoas": 24,
+      "maintainRoas": 18,
+      "pauseRoas": 8,
+      "cpcJumpPct": 30,
+      "minSpendForPause": {
+        "ID": 20000,
+        "MY": 20,
+        "TH": 100
+      },
+      "highClickNoConversion": {
+        "ID": 30,
+        "MY": 30,
+        "TH": 30
+      },
+      "lowCtrPct": 1,
+      "directRiskRatio": 0.7
+    },
+    "combinedProductPerformanceDir": "D:/Shopee Export/Combined/Product Performance",
+    "backupDir": "E:/AI项目汇总/shopee-adspower-scraper/exports/ads-autopilot/backups",
+    "productPerformanceStaleMinutes": 90,
+    "comparisonBase": "yesterday",
+    "impactThresholds": {
+      "positiveLiftPct": 5,
+      "stableBandPct": 5,
+      "conversionDropPct": 10,
+      "clickLiftPct": 10,
+      "spendLiftPct": 10,
+      "highBounceRatePct": 70,
+      "weakConversionRatePct": 1,
+      "weakAtcRatePct": 2,
+      "highPageViews": 100
+    }
+  }
+}

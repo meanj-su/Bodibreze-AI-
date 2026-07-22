@@ -1,0 +1,19 @@
+{
+    "name":  "shopee-adspower-scraper",
+    "version":  "0.1.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "Read-only Shopee Seller Center inspector for already-open AdsPower browsers.",
+    "scripts":  {
+                    "inspect":  "node scripts/inspect-current-seller-center.mjs",
+                    "export:ads-hourly":  "node scripts/export-today-ads-hourly.mjs",
+                    "ads:autopilot":  "node scripts/ads-autopilot.mjs collect",
+                    "ads:analyze":  "node scripts/ads-autopilot.mjs analyze",
+                    "ads:google":  "node scripts/ads-autopilot.mjs google",
+                    "ads:report":  "node scripts/ads-report.mjs run",
+                    "ads:report:generate":  "node scripts/ads-report.mjs generate"
+                },
+    "dependencies":  {
+                         "playwright-core":  "^1.51.1"
+                     }
+}

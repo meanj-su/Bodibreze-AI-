@@ -1,0 +1,60 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+credentials/
+**/credentials/
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+*credential*.json
+*credentials*.json
+*secret*.json
+
+# Raw exports and temporary downloads
+downloads/
+download/
+exports/
+export/
+backup/
+backups/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Large or sensitive office/data artifacts
+*.xlsx
+*.xls
+*.xlsm
+*.docx
+*.pptx
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# Node / Python environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build/cache
+dist/
+build/
+.cache/
+.pytest_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+

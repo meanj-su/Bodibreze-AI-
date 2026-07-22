@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopee Hover Data"
+  short_description: "Read Shopee Seller Center hover-only chart data."
+  default_prompt: "Use Shopee Hover Data to extract hover-only Shopee Seller Center chart data."

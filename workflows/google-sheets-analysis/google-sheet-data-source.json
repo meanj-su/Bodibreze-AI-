@@ -1,0 +1,54 @@
+{
+    "name":  "main-google-data-summary",
+    "description":  "Primary continuously updated Google Sheets data source for future analysis.",
+    "spreadsheetId":  "1bLwa2kh5K__Jo52SP5Ju7Bu80YQviM6MRB6Kzm8N1Y8",
+    "spreadsheetUrl":  "https://docs.google.com/spreadsheets/d/1bLwa2kh5K__Jo52SP5Ju7Bu80YQviM6MRB6Kzm8N1Y8/edit",
+    "credentialPath":  "E:\\AI项目汇总\\全站数据分析\\credentials\\advance-rush-406115-7f33ce3cdf8b.json",
+    "serviceAccountEmail":  "mj-bb-915@advance-rush-406115.iam.gserviceaccount.com",
+    "proxy":  {
+                  "envVar":  "HTTPS_PROXY",
+                  "value":  "http://127.0.0.1:7890",
+                  "note":  "Required in this environment because direct access to googleapis.com times out."
+              },
+    "analysisPriority":  "Use this spreadsheet as the default key source for ongoing operations, channel ROI, country, shop, campaign, GMV, spend, ROI, and trend analysis.",
+    "knownImportantSheets":  [
+                                 {
+                                     "gid":  566599738,
+                                     "title":  "渠道ROI每日-7月26年（已更新）",
+                                     "purpose":  "Current month daily channel ROI tracking."
+                                 },
+                                 {
+                                     "gid":  1109102737,
+                                     "title":  "费用\u0026流量版汇总",
+                                     "purpose":  "Spend and traffic summary."
+                                 },
+                                 {
+                                     "gid":  1749878821,
+                                     "title":  "大促实时数据",
+                                     "purpose":  "Campaign real-time data."
+                                 },
+                                 {
+                                     "gid":  215524428,
+                                     "title":  "全渠道-日",
+                                     "purpose":  "Daily all-channel view."
+                                 },
+                                 {
+                                     "gid":  2135200870,
+                                     "title":  "全渠道-月",
+                                     "purpose":  "Monthly all-channel view."
+                                 }
+                             ],
+    "lastVerified":  "2026-07-15",
+    "verificationCommand":  "$env:HTTPS_PROXY=\"http://127.0.0.1:7890\"; node google-sheet-probe.mjs \"E:\\AI项目汇总\\全站数据分析\\credentials\\advance-rush-406115-7f33ce3cdf8b.json\" 1bLwa2kh5K__Jo52SP5Ju7Bu80YQviM6MRB6Kzm8N1Y8",
+    "lastMigrated":  "2026-07-15",
+    "projectRoot":  "E:\\AI项目汇总\\全站数据分析",
+    "sharedDocsRoot":  "E:\\AI项目汇总\\公共docs",
+    "sharedDocsReadOrder":  [
+                                "README.md",
+                                "目录.md",
+                                "项目索引.md",
+                                "共享资源.md",
+                                "协作规范.md"
+                            ],
+    "sharedDocsPolicy":  "All analysis tasks should read the shared docs root before using project-specific files."
+}

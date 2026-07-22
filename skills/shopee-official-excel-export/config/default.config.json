@@ -1,0 +1,354 @@
+{
+  "adspower": {
+    "localApiBaseUrl": "http://local.adspower.net:50325",
+    "apiKeyEnv": "ADS_API_KEY",
+    "requestTimeoutMs": 10000
+  },
+  "output": {
+    "rootDir": "D:\\Shopee Export",
+    "fallbackDownloadDirs": [
+      "D:\\adspower下载-39"
+    ],
+    "profileFallbackDownloadDirs": {
+      "kyme0da": [
+        "D:\\adspower下载-39"
+      ],
+      "k14di2tc": [
+        "D:\\adspower下载-43"
+      ],
+      "k16ggegy": [
+        "D:\\adspower下载-44"
+      ]
+    },
+    "combinedSheetNames": [
+      "Top Performing Products"
+    ]
+  },
+  "officialExport": {
+    "sameModuleExportIntervalMs": 60000,
+    "retryExportClickIntervalMs": 10000,
+    "latestReportsInitialWaitMs": 0,
+    "latestReportsTimeoutMs": 300000
+  },
+  "googleSheets": {
+    "enabled": true,
+    "spreadsheetId": "1bLwa2kh5K__Jo52SP5Ju7Bu80YQviM6MRB6Kzm8N1Y8",
+    "credentialPath": "E:\\AI项目汇总\\全站数据分析\\credentials\\advance-rush-406115-7f33ce3cdf8b.json",
+    "proxy": "http://127.0.0.1:7890",
+    "writeAfterExport": true,
+    "requestTimeoutMs": 120000
+  },
+  "profiles": {
+    "kyme0da": "Indonesia",
+    "k14di2tc": "Malaysia",
+    "k16ggegy": "Thailand"
+  },
+  "countries": [
+    {
+      "name": "Indonesia",
+      "code": "ID",
+      "hosts": [
+        "seller.shopee.co.id"
+      ],
+      "aliases": [
+        "indonesia",
+        "id",
+        "印尼"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "code": "MY",
+      "hosts": [
+        "seller.shopee.com.my"
+      ],
+      "aliases": [
+        "malaysia",
+        "my",
+        "马来",
+        "马来西亚"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "code": "TH",
+      "hosts": [
+        "seller.shopee.co.th"
+      ],
+      "aliases": [
+        "thailand",
+        "th",
+        "泰国"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "name": "Product Performance",
+      "aliases": [
+        "product performance",
+        "product-performance",
+        "产品表现",
+        "byday",
+        "byday链接"
+      ],
+      "targetUrls": {
+        "Indonesia": "https://seller.shopee.co.id/datacenter/product/performance",
+        "ID": "https://seller.shopee.co.id/datacenter/product/performance",
+        "Malaysia": "https://seller.shopee.com.my/datacenter/product/performance",
+        "MY": "https://seller.shopee.com.my/datacenter/product/performance",
+        "Thailand": "https://seller.shopee.co.th/datacenter/product/performance",
+        "TH": "https://seller.shopee.co.th/datacenter/product/performance"
+      },
+      "targetPath": "/datacenter/product/performance",
+      "pageHints": [
+        "/datacenter/product/performance",
+        "product performance"
+      ],
+      "exportLabels": [
+        "Export Data",
+        "Export",
+        "Ekspor Data"
+      ],
+      "latestReportsLabels": [
+        "Latest Reports",
+        "Laporan Terbaru",
+        "Report Terbaru"
+      ],
+      "downloadLabels": [
+        "Download",
+        "Unduh"
+      ],
+      "downloadMode": "latestReports",
+      "fallbackFilenameHints": [
+        "parentskudetail"
+      ],
+      "combinedSheetNames": [
+        "Top Performing Products"
+      ],
+      "optimisticExportThrottle": true
+    },
+    {
+      "name": "Voucher",
+      "aliases": [
+        "voucher",
+        "vouchers",
+        "marketing voucher",
+        "business insights voucher",
+        "优惠券"
+      ],
+      "targetUrls": {
+        "Indonesia": "https://seller.shopee.co.id/datacenter/marketing/voucher",
+        "ID": "https://seller.shopee.co.id/datacenter/marketing/voucher",
+        "Malaysia": "https://seller.shopee.com.my/datacenter/marketing/voucher",
+        "MY": "https://seller.shopee.com.my/datacenter/marketing/voucher",
+        "Thailand": "https://seller.shopee.co.th/datacenter/marketing/voucher",
+        "TH": "https://seller.shopee.co.th/datacenter/marketing/voucher"
+      },
+      "targetPath": "/datacenter/marketing/voucher",
+      "pageHints": [
+        "/datacenter/marketing/voucher",
+        "marketing voucher",
+        "voucher"
+      ],
+      "downloadMode": "direct",
+      "fallbackFilenameHints": [
+        "voucher"
+      ],
+      "combinedSheetNames": [
+        "Performance List"
+      ],
+      "exportLabels": [
+        "Export Data",
+        "Export",
+        "Ekspor Data"
+      ],
+      "downloadLabels": [
+        "Download",
+        "Unduh"
+      ],
+      "optimisticExportThrottle": true
+    },
+    {
+      "name": "Affiliate",
+      "aliases": [
+        "affiliate",
+        "conversion report",
+        "affiliate conversion report"
+      ],
+      "targetUrls": {
+        "Indonesia": "https://seller.shopee.co.id/portal/web-seller-affiliate/conversion_report",
+        "ID": "https://seller.shopee.co.id/portal/web-seller-affiliate/conversion_report",
+        "Malaysia": "https://seller.shopee.com.my/portal/web-seller-affiliate/conversion_report",
+        "MY": "https://seller.shopee.com.my/portal/web-seller-affiliate/conversion_report",
+        "Thailand": "https://seller.shopee.co.th/portal/web-seller-affiliate/conversion_report",
+        "TH": "https://seller.shopee.co.th/portal/web-seller-affiliate/conversion_report"
+      },
+      "targetPath": "/portal/web-seller-affiliate/conversion_report",
+      "pageHints": [
+        "/portal/web-seller-affiliate/conversion_report",
+        "conversion report",
+        "affiliate"
+      ],
+      "dateMode": "pageDefaultLast30",
+      "taskRangeMode": "last30",
+      "downloadMode": "exportManagement",
+      "fallbackFilenameHints": [
+        "sellerconversionreport",
+        "sellerconversion",
+        "conversion",
+        "affiliate"
+      ],
+      "combinedSheetNames": [
+        "Conversion Report",
+        "Sheet1"
+      ],
+      "combineFirstSheet": true,
+      "alwaysCreateCrossCountryCombined": true,
+      "exportLabels": [
+        "Export",
+        "Ekspor"
+      ],
+      "downloadLabels": [
+        "Download",
+        "Unduh"
+      ],
+      "optimisticExportThrottle": true
+    },
+    {
+      "name": "Shopee Ads",
+      "aliases": [
+        "shopee ads",
+        "shoppe ads",
+        "ads",
+        "pas",
+        "all cpc ads",
+        "cpc ads",
+        "广告"
+      ],
+      "targetUrls": {
+        "Indonesia": "https://seller.shopee.co.id/portal/marketing/pas/index?from=1784480400&to=1784566799&type=new_cpc_homepage&group=today",
+        "ID": "https://seller.shopee.co.id/portal/marketing/pas/index?from=1784480400&to=1784566799&type=new_cpc_homepage&group=today",
+        "Malaysia": "https://seller.shopee.com.my/portal/marketing/pas/index?from=1784476800&to=1784563199&type=new_cpc_homepage&group=today&offset=400",
+        "MY": "https://seller.shopee.com.my/portal/marketing/pas/index?from=1784476800&to=1784563199&type=new_cpc_homepage&group=today&offset=400",
+        "Thailand": "https://seller.shopee.co.th/portal/marketing/pas/index?source_page_id=1&from=1784480400&to=1784566799&type=new_cpc_homepage&group=today&offset=377.5",
+        "TH": "https://seller.shopee.co.th/portal/marketing/pas/index?source_page_id=1&from=1784480400&to=1784566799&type=new_cpc_homepage&group=today&offset=377.5"
+      },
+      "targetPath": "/portal/marketing/pas/index",
+      "pageHints": [
+        "/portal/marketing/pas",
+        "new_cpc_homepage",
+        "shopee ads"
+      ],
+      "dateMode": "urlQuery",
+      "downloadMode": "adsSubmenu",
+      "exportLabels": [
+        "Export Data",
+        "Export",
+        "Ekspor Data"
+      ],
+      "exportSubmenuLabels": [
+        "Overall Ads Data"
+      ],
+      "downloadLabels": [
+        "Download",
+        "Unduh"
+      ],
+      "fallbackFilenameHints": [
+        "ads",
+        "cpc",
+        "overall",
+        "product",
+        "shop"
+      ],
+      "combinedSheetNames": [
+        "Overall Ads Data",
+        "All Ads Performance",
+        "Sheet1"
+      ],
+      "combineFirstSheet": true,
+      "alwaysCreateCrossCountryCombined": true,
+      "urlTimezoneOffsets": {
+        "Indonesia": 7,
+        "ID": 7,
+        "Malaysia": 8,
+        "MY": 8,
+        "Thailand": 7,
+        "TH": 7
+      },
+      "urlDateGroup": "today-or-custom",
+      "adsSectionsByCountry": {
+        "Indonesia": [
+          {
+            "key": "all_product_ads",
+            "name": "All Product Ads",
+            "tabLabels": [
+              "Product Ads",
+              "All Product Ads"
+            ],
+            "filenamePrefix": "all_product_ads",
+            "urlQuery": {
+              "type": "new_cpc_homepage"
+            },
+            "exportSubmenuLabels": [
+              "Overall Ads Data"
+            ],
+            "apiReportType": "new_cpc_homepage__overall"
+          }
+        ],
+        "Malaysia": [
+          {
+            "key": "all_cpc_ads",
+            "name": "All CPC Ads",
+            "tabLabels": [
+              "All CPC Ads"
+            ],
+            "filenamePrefix": "all_cpc_ads",
+            "urlQuery": {
+              "type": "new_cpc_homepage"
+            },
+            "exportSubmenuLabels": [
+              "Overall Ads Data"
+            ]
+          }
+        ],
+        "Thailand": [
+          {
+            "key": "all_cpc_ads",
+            "name": "All CPC Ads",
+            "tabLabels": [
+              "All CPC Ads"
+            ],
+            "filenamePrefix": "all_cpc_ads",
+            "urlQuery": {
+              "type": "new_cpc_homepage"
+            }
+          }
+        ]
+      },
+      "optimisticExportThrottle": true
+    }
+  ],
+  "dateShortcuts": {
+    "today": [
+      "today",
+      "今天"
+    ],
+    "yesterday": [
+      "yesterday",
+      "昨天"
+    ],
+    "last7": [
+      "last7",
+      "last 7",
+      "last 7 days",
+      "最近7天"
+    ],
+    "last30": [
+      "last30",
+      "last 30",
+      "last 30 days",
+      "最近30天"
+    ]
+  }
+}
